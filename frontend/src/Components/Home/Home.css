@@ -1,0 +1,205 @@
+body{
+    background: #372c66;
+background: linear-gradient(nulldeg,rgba(55, 44, 102, 1) 0%, rgba(16, 41, 64, 1) 86%, rgba(7, 29, 33, 1) 92%);
+    margin-bottom: 100px;
+}
+.Home{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    margin-top: 36px ;
+    margin-left:29px ;
+    border: 1px solid black;; 
+}
+
+.homecontainer{
+    margin-left : 81.08px;
+}
+input{
+    width : 689px;
+    height : 40px;
+    border-radius: 8px 10px 8px 10px;
+     
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    width: 1118px;
+    
+}
+.searchicon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: #433d70;
+    
+}
+
+.searchbar{
+    border : 1px;
+    padding: 8px 16px 8px 16px;
+    margin-top : 36px;
+    opacity: 45%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: left;
+} 
+
+.noti{
+    margin-top : 60px;
+    justify-items: center;
+    align-items: center;
+    width: 20px;
+    height : 20px;
+    color: white;
+    float: right;
+    
+}
+.notifications{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    gap: 10px;  
+}
+
+.profile{
+    width:201px;
+    height : 65px;
+    margin-top: 50px;
+    color: white;
+    line-height: 5px;
+}
+p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-basis: auto;
+    
+
+    
+}
+#content{
+    height: 153px;
+    width: 547px;
+    border-radius: 25px;
+    background: #433d70;
+background: linear-gradient(nulldeg,rgba(67, 61, 112, 1) 0%, rgba(16, 41, 64, 1) 86%, rgba(7, 29, 33, 1) 92%);
+    border: 3px solid transparent;
+          border-image: radial-gradient(
+            nulldeg,
+            rgba(255, 255, 255, 0.62) 0%,
+            rgba(58, 208, 255, 0.23) 23%,
+            rgba(58, 220, 255, 0) 100%
+          ) 1;
+          
+
+    box-shadow: 0 0 3px 1.5px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: -1px -1px 1px 0px #FFFFFF,
+    1px 1px 1px 0px grey;
+-webkit-box-shadow: -1px -1px 1px 0px grey,
+    1px 1px 1px 0px grey;
+box-shadow: -1px -1px 1px 0px grey,
+    1px 1px 1px 0px grey;
+}
+
+.socialhome{
+    width : 1118px;
+    height : 97px;
+    margin-top: 30px; 
+    box-shadow: 0 0 3px 1.5px rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    -moz-box-shadow: -1px -1px 1px 0px #FFFFFF,
+    1px 1px 1px 0px grey;
+-webkit-box-shadow: -1px -1px 1px 0px grey,
+    1px 1px 1px 0px grey;
+box-shadow: -1px -1px 1px 0px grey,
+    1px 1px 1px 0px grey;
+    
+}
+
+.line{
+    width: 1118px;
+    height: 2px;
+    background: whitesmoke;
+    
+    border : 0.5px solid grey;
+    border-radius: 16.34px;
+    margin-top: 30px;
+   
+    box-shadow: 0 0 3px 1px #A079FFA6;
+    opacity: 50%;
+    -moz-box-shadow: 0 0 3px 1px rgba(160, 121, 255, 0.7);
+-webkit-box-shadow: 0 0 3px 1px rgba(160, 121, 255, 0.7);
+box-shadow: 0 0 3px 1px rgba(160, 121, 255, 0.7);
+}
+
+#cont{
+    width:259px;
+    height : 160px;
+    /* border : 1.5px solid grey; */
+    border-radius: 20px;
+    box-shadow: 0 0 3px 1.5px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: -1px -1px 1px 0px #FFFFFF,
+    1px 1px 1px 0px grey;
+-webkit-box-shadow: -1px -1px 1px 0px grey,
+    1px 1px 1px 0px grey;
+box-shadow: -1px -1px 1px 0px grey,
+    1px 1px 1px 0px grey;
+
+}
+.arrow{
+    width:24px;
+    height:24px;
+    color:#2279BF;
+    float:right;
+    position:relative;
+    margin-right:10px;
+    margin-top: 10px;
+}
+.outlineuser{
+   
+        /* border: 1px solid #5c5f5e; */
+        border-radius: 15px;
+    width:25px;
+    height:25px;
+    color: whitesmoke;
+    background: #214159;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    size: 2;
+
+    box-shadow: 0 0 3px 1px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: -1px -1px 1px 0px #FFFFFF,
+    1px 1px 1px 0px grey;
+-webkit-box-shadow: -1px -1px 1px 0px grey,
+    1px 1px 1px 0px grey;
+box-shadow: -1px -1px 1px 0px grey,
+    1px 1px 1px 0px grey;
+}
+.text{
+   margin-left: 10px;
+    color:#fff;
+    width: 170px;
+}
+
+button{
+    border : 1px solid black;
+    float: right;
+    margin-top: 50px;
+    padding: 5px 5px 5px 5px;
+    width: 97px;
+    height:28px
+}

@@ -1,0 +1,59 @@
+.navbar{
+    width: 1150px;
+    height: 55px;
+    
+    padding: 1rem 2rem;
+    border: 0.84px solid black;
+    border-radius: 5.23px;
+
+
+  display: flex;
+  float: left;
+  justify-content: flex-start;
+  align-items: center;
+ 
+  background: #2e1b5c;
+background: linear-gradient(nulldeg,rgba(46, 27, 92, 0.5) 80%, rgba(193, 170, 255, 0.5) 30%, rgba(101, 104, 255, 1) 50%);
+  color: white;
+  
+  margin-top: 50px;
+}
+
+
+.navbarlinks{
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+    
+  }
+.navbarlinks li a {
+  padding: 53px 32px 53px 32px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1rem;
+    gap: 53px;
+    transition: color 0.3s ease;
+  }
+
+
+ 
+
+  .navbarlinks li a::after {
+    content: '';
+    /* Corrected: 'background' is needed to make the line visible, not 'color' */
+    background: #794AED;
+    border: 0.87px solid #C8D6FF;
+    width: 72px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0); /* Start hidden and centered */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+    box-shadow: 0 0 10px #794AED, 0 0 20px #794AED; /* Add a glowing effect */
+}
+
+/* Show the custom underline when the link is active */
+.navbarlinks li a.active::after {
+    transform: translateX(-50%) scaleX(1); /* Scale it up to make it visible */
+}

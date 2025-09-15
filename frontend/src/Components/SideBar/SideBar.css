@@ -1,0 +1,61 @@
+
+.sidebarcontainer{  
+    width:81.92px;
+    height:888px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background:rgba(25, 25, 52, 0.85); 
+    border-radius: 20px;
+    color: #fff;
+    /* border :0.94px ; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidecontainer{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.lineside{
+    width: 45px;
+    height: 2px;
+    background: #6F6F6F;
+    border : 0.5px solid #6F6F6F;
+    border-radius: 1px;
+    margin-top: 30px;
+   
+}
+.icons{
+    width: 45.74px;
+    height: 277px;
+    gap: 20rem;
+    margin: 10px 10px 10px 10px;
+    justify-items: center;
+}
+.icon{
+    width: 45px;
+    height:45px;
+    font-size: 1.5rem;
+          margin-bottom: 1rem;
+          color: rgba(25, 25, 52, 0.85);
+          -moz-text-shadow: -1px -1px 1px grey,
+              1px 1px 1px 0px grey;
+          -webkit-text-shadow: -1px -1px 1px grey,
+              1px 1px 1px 0px grey;
+          text-shadow: -1px -1px 1px grey,
+              1px 1px 1px 0px grey;
+}
+.homeIcon{
+    width: 20.42px;
+    height: 20.42px;
+    color: whitesmoke;
+}
+
+
