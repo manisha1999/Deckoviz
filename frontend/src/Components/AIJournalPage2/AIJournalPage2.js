@@ -6,6 +6,7 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 import { BsStars } from "react-icons/bs";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import './AIJournalPage2.css'
+import SearchBar from '../SearchBar/SearchBar';
 
 function AIJournalPage2() {
 
@@ -26,6 +27,9 @@ function AIJournalPage2() {
                 <SideBar />
             </div>
             <div className='aijournalcontent' style={{ float: "right" }}>
+            <div style={{marginTop:"40px"}}>
+                    <SearchBar />
+             </div>
                 <div className='aiupperbar'>
                     <div className='aitext' >AI Journal <BsStars className='stars' /></div>
                     <div className='ainavbar'>

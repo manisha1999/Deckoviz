@@ -40,7 +40,7 @@ background: linear-gradient(nulldeg,rgba(46, 27, 92, 0.5) 80%, rgba(193, 170, 25
 
   .navbarlinks li a::after {
     content: '';
-    /* Corrected: 'background' is needed to make the line visible, not 'color' */
+   
     background: #794AED;
     border: 0.87px solid #C8D6FF;
     width: 72px;
@@ -48,12 +48,12 @@ background: linear-gradient(nulldeg,rgba(46, 27, 92, 0.5) 80%, rgba(193, 170, 25
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%) scaleX(0); /* Start hidden and centered */
-    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
-    box-shadow: 0 0 10px #794AED, 0 0 20px #794AED; /* Add a glowing effect */
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease-in-out; 
+    box-shadow: 0 0 10px #794AED, 0 0 20px #794AED; 
 }
 
-/* Show the custom underline when the link is active */
+
 .navbarlinks li a.active::after {
-    transform: translateX(-50%) scaleX(1); /* Scale it up to make it visible */
+    transform: translateX(-50%) scaleX(1); 
 }

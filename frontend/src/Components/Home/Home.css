@@ -16,6 +16,9 @@ background: linear-gradient(nulldeg,rgba(55, 44, 102, 1) 0%, rgba(16, 41, 64, 1)
 
 .homecontainer{
     margin-left : 81.08px;
+    display: flex;
+    flex-direction: column;
+    gap:20px
 }
 input{
     width : 689px;
@@ -23,41 +26,10 @@ input{
     border-radius: 8px 10px 8px 10px;
      
 }
-.search{
-    display: flex;
-    flex-direction: row;
-    width: 1118px;
-    
-}
-.searchicon{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    color: #433d70;
-    
-}
 
-.searchbar{
-    border : 1px;
-    padding: 8px 16px 8px 16px;
-    margin-top : 36px;
-    opacity: 45%;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    float: left;
-} 
 
-.noti{
-    margin-top : 60px;
-    justify-items: center;
-    align-items: center;
-    width: 20px;
-    height : 20px;
-    color: white;
-    float: right;
-    
-}
+
+
 .notifications{
     float: right;
     display: flex;
@@ -66,12 +38,21 @@ input{
     gap: 10px;  
 }
 
+.nametext{
+    font-weight: 600;
+    font-size: 30px;
+}
+.nametwotext{
+    font-weight: 400;
+    font-size: 12px;
+}
+
 .profile{
     width:201px;
     height : 65px;
-    margin-top: 50px;
     color: white;
-    line-height: 5px;
+    display: flex;
+    flex-direction: column;
 }
 p{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -85,7 +66,6 @@ p{
     flex-direction: row;
     gap: 20px;
     flex-basis: auto;
-    
 
     
 }
@@ -104,16 +84,18 @@ background: linear-gradient(nulldeg,rgba(67, 61, 112, 1) 0%, rgba(16, 41, 64, 1)
           ) 1;
           
 
-    box-shadow: 0 0 3px 1.5px rgba(255, 255, 255, 0.5);
-    -moz-box-shadow: -1px -1px 1px 0px #FFFFFF,
-    1px 1px 1px 0px grey;
--webkit-box-shadow: -1px -1px 1px 0px grey,
-    1px 1px 1px 0px grey;
-box-shadow: -1px -1px 1px 0px grey,
-    1px 1px 1px 0px grey;
+          border: 1px solid rgba(138, 140, 255, 0.4);
+          border-radius: 25px;
+          
+          
+          box-shadow: 0 0 10px 1px rgba(138, 140, 255, 0.2), 
+                      0 0 20px 2px rgba(138, 140, 255, 0.1); 
 }
 
-.socialhome{
+/* .socialhome{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
     width : 1118px;
     height : 97px;
     margin-top: 30px; 
@@ -124,8 +106,42 @@ box-shadow: -1px -1px 1px 0px grey,
 -webkit-box-shadow: -1px -1px 1px 0px grey,
     1px 1px 1px 0px grey;
 box-shadow: -1px -1px 1px 0px grey,
-    1px 1px 1px 0px grey;
+    1px 1px 1px 0px grey;  
+} */
+
+.socialhome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width : 1118px;
+    height : 97px;
+    margin-top: 30px; 
+    background: #FFFFFF0D;
     
+   
+    border: 1px solid rgba(138, 140, 255, 0.4);
+    border-radius: 25px;
+    
+    
+    box-shadow: 0 0 10px 1px rgba(138, 140, 255, 0.2), 
+                0 0 20px 2px rgba(138, 140, 255, 0.1); 
+    
+    color: white;
+    position: relative;
+}
+.socialarrow{
+   position: absolute;
+    margin-left: auto;
+    right: 15px;
+    width: 40px;
+    
+}
+
+.socialtext{
+    margin-left: 20px; /* Increased margin for better spacing */
+    color: #fff;
+    width: 170px;
+    font-size: 16px; /* Adjust font size if needed */
 }
 
 .line{
@@ -149,13 +165,13 @@ box-shadow: 0 0 3px 1px rgba(160, 121, 255, 0.7);
     height : 160px;
     /* border : 1.5px solid grey; */
     border-radius: 20px;
-    box-shadow: 0 0 3px 1.5px rgba(255, 255, 255, 0.5);
-    -moz-box-shadow: -1px -1px 1px 0px #FFFFFF,
-    1px 1px 1px 0px grey;
--webkit-box-shadow: -1px -1px 1px 0px grey,
-    1px 1px 1px 0px grey;
-box-shadow: -1px -1px 1px 0px grey,
-    1px 1px 1px 0px grey;
+    background: #FFFFFF0D;
+    border: 1px solid rgba(138, 140, 255, 0.4);
+    border-radius: 25px;
+    
+    
+    box-shadow: 0 0 10px 1px rgba(138, 140, 255, 0.2), 
+                0 0 20px 2px rgba(138, 140, 255, 0.1); 
 
 }
 .arrow{
@@ -169,8 +185,8 @@ box-shadow: -1px -1px 1px 0px grey,
 }
 .outlineuser{
    
-        /* border: 1px solid #5c5f5e; */
-        border-radius: 15px;
+        
+    border-radius: 15px;
     width:25px;
     height:25px;
     color: whitesmoke;
@@ -178,7 +194,7 @@ box-shadow: -1px -1px 1px 0px grey,
     position: relative;
     margin-left: 10px;
     margin-top: 10px;
-    padding: 10px 10px 10px 10px;
+    padding: 12px 12px 12px 12px;
     size: 2;
 
     box-shadow: 0 0 3px 1px rgba(255, 255, 255, 0.5);

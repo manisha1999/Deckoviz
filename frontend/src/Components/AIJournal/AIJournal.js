@@ -14,6 +14,7 @@ import { GoPlus } from "react-icons/go";
 import { IoIosSend } from "react-icons/io";
 import { RiVoiceprintLine } from "react-icons/ri";
 import { BsStars } from "react-icons/bs";
+import SearchBar from '../SearchBar/SearchBar';
 
 
 
@@ -33,13 +34,16 @@ function AIJournal() {
         <SideBar />
       </div>
       <div className='aijournalcontent'>
+      <div style={{marginTop:"40px"}}>
+                    <SearchBar />
+             </div>
         <div className='aiupperbar'>
           <div className='aitext' >AI Journal <BsStars className='stars'/></div>
           <div className='ainavbar'>
             <AINavbar />
           </div>
         </div>
-        <div className='sections'>
+        <div className='sections' style={{display:"flex",flexDirection:"row"}}>
           <div className='section1'>
                 <div className='image12'> 
                   <img src={group12} className='group12' alt='mask' />

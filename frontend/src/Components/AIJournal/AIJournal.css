@@ -31,9 +31,9 @@ color: #fff;
 .sections{
     margin-top: 10px;
     display: flex;
-flex-direction: row;
-margin-top: 50px;
-gap: 50px;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 50px;
 }
 
 .section1{

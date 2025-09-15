@@ -7,6 +7,7 @@ import { LiaCommentMedicalSolid } from "react-icons/lia";
 import { IoIosPlayCircle } from "react-icons/io";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { BsEmojiSmileFill } from "react-icons/bs";
+import SearchBar from '../SearchBar/SearchBar';
 
 const initialTags = ['Morning Routine', 'Meditation'];
 function AIjournalwrite() {
@@ -47,6 +48,9 @@ function AIjournalwrite() {
                 <SideBar />
             </div>
             <div className='aijournalcontent' style={{ float: "right" }}>
+            <div style={{marginTop:"40px"}}>
+                    <SearchBar />
+             </div>
                 <div className='aiupperbar'>
                     <div className='aitext' >AI Journal <BsStars className='stars' /></div>
                     <div className='ainavbar'>
