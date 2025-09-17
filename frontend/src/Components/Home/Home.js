@@ -33,46 +33,51 @@ function Home() {
                     <div id='content'>
                         <HiArrowCircleRight className="arrow" />
                         <HiUsers className='outlineuser' size={2} />
-                        <div className='text'>Explore your daily recommendation</div></div>
+                        <div className='textone'>Explore your daily recommendation</div></div>
                     <div id='content'>
                         <HiArrowCircleRight className="arrow" />
                         <FaCommentDots className='outlineuser' />
-                        <div className='text'>Prompt your way to your people</div>
+                        <div className='textone'>Prompt your way to your people</div>
                     </div>
                 </div>
                 <div className='socialhome'>
-                    
-                    <MdHomeFilled className='outlineuser' />
-                    <div className='text socialtext'>Go to your social</div>
+                    <div style={{display:"flex",flexDirection:"row",alignitems:"center",marginTop:"10px"}}>
+                    <div><MdHomeFilled className='outlineuser' size={2}/></div>
+                    <div className='socialtext'>Go to your social Home</div>
+                    </div>
                     <HiArrowCircleRight className="arrow socialarrow" />
+                    
                 </div>
                 <div className='line'>
                 </div>
                 <div className='contents' style={{ marginTop: "30px" }}>
                     <div id='cont'>
+                        
                         <HiArrowCircleRight className="arrow" />
                         <HiUsers className='outlineuser' size={2} />
-                        <div className='text'>Relationship Dashboard</div>
+                        <div className='textone'>Relationship Dashboard</div>
                     </div>
                     <div id='cont'>
                         <HiArrowCircleRight className="arrow" />
                         <HiUsers className='outlineuser' size={2} />
-                        <div className='text'>Question Cards</div>
+                        <div className='textone'>Question Cards</div>
                     </div>
                     <div id='cont'>
                         <HiArrowCircleRight className="arrow" />
                         <HiUsers className='outlineuser' size={2} />
-                        <div className='text'>Relationship Coach</div>
+                        <div className='textone'>Relationship Coach</div>
                     </div>
                     <div id='cont'>
                         <HiArrowCircleRight className="arrow" />
                         <HiUsers className='outlineuser' size={2} />
-                        <div className='text'>Relationship Pad</div>
+                        <div className='textone'>Relationship Pad</div>
                     </div>
                 </div>
                 <div className='socialhome'>
-                    <MdHomeFilled className='outlineuser' />
-                    <div className='text socialtext'>Go to your social</div>
+                <div style={{display:"flex",flexDirection:"row",alignitems:"center",marginTop:"10px"}}>
+                    <div><MdHomeFilled className='outlineuser' size={2}/></div>
+                    <div className='socialtext' style={{width:"200px"}}>Your Relationship Home</div>
+                    </div>
                     <HiArrowCircleRight className="arrow socialarrow" />
                 </div>
                 <div className='seemore'>

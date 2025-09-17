@@ -95,34 +95,28 @@ background: linear-gradient(nulldeg,rgba(67, 61, 112, 1) 0%, rgba(16, 41, 64, 1)
 /* .socialhome{
     display:flex;
     flex-direction: row;
-    align-items: center;
+    
     width : 1118px;
     height : 97px;
+    background: #FFFFFF0D;
     margin-top: 30px; 
     box-shadow: 0 0 3px 1.5px rgba(255, 255, 255, 0.5);
     border-radius: 25px;
-    -moz-box-shadow: -1px -1px 1px 0px #FFFFFF,
-    1px 1px 1px 0px grey;
--webkit-box-shadow: -1px -1px 1px 0px grey,
-    1px 1px 1px 0px grey;
-box-shadow: -1px -1px 1px 0px grey,
-    1px 1px 1px 0px grey;  
+    box-shadow: 0 0 10px 1px rgba(138, 140, 255, 0.2), 
+                0 0 20px 2px rgba(138, 140, 255, 0.1); 
+    border: 1px solid rgba(138, 140, 255, 0.4);
 } */
 
 .socialhome{
     display: flex;
     flex-direction: row;
-    align-items: center;
+   
     width : 1118px;
     height : 97px;
     margin-top: 30px; 
     background: #FFFFFF0D;
-    
-   
     border: 1px solid rgba(138, 140, 255, 0.4);
     border-radius: 25px;
-    
-    
     box-shadow: 0 0 10px 1px rgba(138, 140, 255, 0.2), 
                 0 0 20px 2px rgba(138, 140, 255, 0.1); 
     
@@ -132,15 +126,16 @@ box-shadow: -1px -1px 1px 0px grey,
 .socialarrow{
    position: absolute;
     margin-left: auto;
-    right: 15px;
-    width: 40px;
     
+    right: 10px;
+    width: 40px;   
 }
 
 .socialtext{
     margin-left: 20px; /* Increased margin for better spacing */
     color: #fff;
     width: 170px;
+    margin-top: 20px;
     font-size: 16px; /* Adjust font size if needed */
 }
 
@@ -148,11 +143,9 @@ box-shadow: -1px -1px 1px 0px grey,
     width: 1118px;
     height: 2px;
     background: whitesmoke;
-    
     border : 0.5px solid grey;
     border-radius: 16.34px;
     margin-top: 30px;
-   
     box-shadow: 0 0 3px 1px #A079FFA6;
     opacity: 50%;
     -moz-box-shadow: 0 0 3px 1px rgba(160, 121, 255, 0.7);
@@ -185,7 +178,6 @@ box-shadow: 0 0 3px 1px rgba(160, 121, 255, 0.7);
 }
 .outlineuser{
    
-        
     border-radius: 15px;
     width:25px;
     height:25px;
@@ -195,7 +187,7 @@ box-shadow: 0 0 3px 1px rgba(160, 121, 255, 0.7);
     margin-left: 10px;
     margin-top: 10px;
     padding: 12px 12px 12px 12px;
-    size: 2;
+   
 
     box-shadow: 0 0 3px 1px rgba(255, 255, 255, 0.5);
     -moz-box-shadow: -1px -1px 1px 0px #FFFFFF,
@@ -205,7 +197,7 @@ box-shadow: 0 0 3px 1px rgba(160, 121, 255, 0.7);
 box-shadow: -1px -1px 1px 0px grey,
     1px 1px 1px 0px grey;
 }
-.text{
+.textone{
    margin-left: 10px;
     color:#fff;
     width: 170px;

@@ -12,8 +12,8 @@ function SideBar() {
     <div className='sidecontainer'>
 
         <div className='icons'>
-        <div className='icon'><MdHomeFilled className='homeIcon'/></div>
-        <div className="icon"><IoIosHeartEmpty className='homeIcon'/></div>
+        <div className='icon'><a href='/'><MdHomeFilled className='homeIcon'/></a></div>
+        <div className="icon"><a href='/aijournal'><IoIosHeartEmpty className='homeIcon'/></a></div>
         <div className="icon"><MdHomeFilled className='homeIcon'/></div>
         <div className="icon"><IoIosSearch className='homeIcon'/></div>
         <div className="icon"><IoMdChatbubbles className='homeIcon'/></div>
