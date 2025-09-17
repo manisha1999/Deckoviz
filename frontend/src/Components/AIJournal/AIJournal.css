@@ -66,7 +66,7 @@ box-shadow: -1px -1px 1px 0px grey,
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    margin-top: 80px;
+    margin-top: 60px;
   }
 .waves{
     width: 32px;
@@ -86,7 +86,7 @@ box-shadow: -1px -1px 1px 0px grey,
 .inputbox{
     width:450px;
     height:60px;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 15px 30px 0px 30px;
     background: linear-gradient(#CFCFCF, #827A7A);
     border : 0.68px solid grey;
@@ -291,10 +291,15 @@ box-shadow: -1px -1px 1px 0px grey,
 }
 
 .image12{
-    height: 165px;
-    width:165px;
+    height: 276px;
+    width:276px;
     background: #62C8FF00;
-    background-image: radial-gradient(#2574EF, #62C8FF00);   
+    background: radial-gradient(50% 50% at 50% 50%, rgba(98, 200, 255, 0) 38.53%, rgba(37, 116, 239, 0.3) 100%);
+    border: 0.83px solid #FFFFFF4D;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50%;
 }
 .imagec>img{
     height: 88px;

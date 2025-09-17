@@ -48,7 +48,7 @@ function AIJournal() {
                 <div className='image12'> 
                   <img src={group12} className='group12' alt='mask' />
                 </div>
-                <div style={{fontSize:"12px",fontWeight:"500",color:"white",marginTop:"50px",marginBottom:"5px",width:"300px"}}>Probably playing the piano. Imagine just sitting
+                <div style={{fontSize:"12px",fontWeight:"500",color:"white",marginTop:"20px",marginBottom:"5px",width:"300px",textAlign:"center"}}>Probably playing the piano. Imagine just sitting
                   down and playing a beautiful piece effortlessly.
                   What about you?..</div>
                   <div className="images-container">

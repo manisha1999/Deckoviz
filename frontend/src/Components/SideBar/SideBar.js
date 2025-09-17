@@ -6,14 +6,26 @@ import { CiDollar } from "react-icons/ci";
 import { TbCirclePercentage } from "react-icons/tb";
 import { PiSignOutBold } from "react-icons/pi";
 
+import { NavLink } from "react-router-dom";
+
 function SideBar() {
   return (
     <div className='sidebarcontainer'>
     <div className='sidecontainer'>
 
         <div className='icons'>
-        <div className='icon'><a href='/'><MdHomeFilled className='homeIcon'/></a></div>
-        <div className="icon"><a href='/aijournal'><IoIosHeartEmpty className='homeIcon'/></a></div>
+        <div className='icon'><NavLink 
+    to="/"
+    className={({ isActive }) => (isActive ? 'active-icon-bg' : '')}
+  >
+    <MdHomeFilled className='homeIcon' />
+  </NavLink></div>
+        <div className="icon"><NavLink
+    to="/aijournal"
+    className={({ isActive }) => (isActive ? 'active-icon-bg' : '')}
+  >
+    <IoIosHeartEmpty className='homeIcon' />
+  </NavLink></div>
         <div className="icon"><MdHomeFilled className='homeIcon'/></div>
         <div className="icon"><IoIosSearch className='homeIcon'/></div>
         <div className="icon"><IoMdChatbubbles className='homeIcon'/></div>

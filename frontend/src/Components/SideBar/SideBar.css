@@ -59,3 +59,15 @@
 }
 
 
+.active-icon-bg {
+    /* The size of the circular background */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #5754a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
